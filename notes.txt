@@ -1,0 +1,113 @@
+data structure 
+
+DS 
+
+why ds? 
+
+speed : time complexity**************
+memory : space complexity****** 
+
+
+store / read / 
+
+
+flipkart -> buy [india] users +
+
+
+iphone 13 -> 1 minute
+
+
+gtu -> result [guj] users -
+gboard -> result 
+income tax -> before 2020 
+
+
+50 [ 25 ] [ 10 ] - 16 gb 
+
+1 2 3 4 5 6 7 899 00 0 0 6 4 
+
+search 4
+
+4 2 time 
+
+------------------------------------------------------------------------------------------------------------
+
+							DS
+
+	primitive DS								NonPrimitive 
+							Linear						NonLinear 
+						Array   Stack   Queue LinkedList 		    Tree          Graph						 
+				
+
+int a; //2 byte 
+char c;//1  byte
+
+main(){
+	add();
+	pf();
+}
+//RAM -> stack 
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+local -> g.v 
+global -> 0 default 
+
+storage classes 
+
+auto : local
+		1) memory allocation ,stack ,scope limited to block , default value g.v,free ->scope 
+		{int a;}
+extern : global 2) m.a , stack-heap ,with in the file - outside file , dv -> 0 , 
+		extern int x; 
+			int y;
+static :    this will allocate memroy once in entire life of program 
+		static int x;
+
+register :  memory allocation register 
+		register int x; 
+
+scope lifetime visibility 
+default value 
+
+
+	Register [1]  ****   	KB
+	Cache    [2]  ***	MB
+	RAM      [3]  **	GB
+	HDD      [4]  * 	TB
+
+
+
+
+
+
+
+
+
+	add(){
+			  int a; //1250 
+	}
+	main(){
+
+		 add();
+		  //
+		 //
+		add(); 
+		//
+		//
+		add();
+	}
+
+
+
+
+
+
+
+
+
+
+
+
