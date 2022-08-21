@@ -7,13 +7,13 @@ int top=-1;
 void push(int num);//insert
 void pop();//remove
 void display();//stack print
-
+void peep(int location);
 
 int main(){
-    int choice,data ;
+    int choice,data,location;
 
     while(1){
-        printf("\n0 For exit\n1 For PUSH\n2 For POP\n3 For Display\nEnter your choice");
+        printf("\n0 For exit\n1 For PUSH\n2 For POP\n3 For Display\n4 For Peep\nEnter your choice");
         scanf("%d",&choice);
 
         switch(choice){
@@ -30,6 +30,12 @@ int main(){
             case 3:
                     display();
                     break;
+            case 4:
+                    printf("\nEnter location");
+                    scanf("%d",&location);
+                    peep(location);
+                    break;
+
         }
     }
 
@@ -47,7 +53,14 @@ void push(int num){
     }
 }
 void pop(){
-
+    int num;
+    if(top==-1)
+        printf("\nStack is Empty");
+    else{
+        num=stack[top];
+        printf("\n%d pop",num);
+        top--;
+    }
 }
 void display(){
     int i;
@@ -55,5 +68,12 @@ void display(){
     for(i=top; i>=0 ;i--){
       printf("\n%d",stack[i]);
     }
+}
+
+void peep(int location){
+        int index;
+        index = top - location + 1;
+        printf("\n%d ",stack[index]);
+
 }
 
