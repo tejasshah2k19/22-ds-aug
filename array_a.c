@@ -28,6 +28,12 @@ int main(){
                 }
                 break;
             case 2:
+                printf("\nEnter location");
+                scanf("%d",&location);
+                for(i=location-1;i<SIZE-1;i++){
+                    a[i] = a[i+1];
+                }
+                a[SIZE-1]=0;
                 break;
             case 3:
                 for(i=0;i<SIZE;i++){
