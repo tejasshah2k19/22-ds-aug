@@ -2,7 +2,7 @@
 #define S 4
 
 int g[S][S];//0 0 0 0 0 0 0 0 0 0
-int visited[S];//0 0 0 0
+int visited[S];//1 0 0 0
 
 
 int main(){
